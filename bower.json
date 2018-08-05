@@ -1,0 +1,21 @@
+{
+  "name": "Test",
+  "authors": [
+    "İslam Özbek <web.islamozbek@gmail.com>"
+  ],
+  "description": "Test",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "^5.0.6",
+    "angular": "^1.7.2"
+  }
+}

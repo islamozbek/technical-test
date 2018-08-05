@@ -1,0 +1,94 @@
+@media screen and (max-width: 768px) {
+    header{
+        padding-bottom: 25px;
+    }
+    header nav{
+        display: none;
+    }
+
+    #menu-bar{
+        display: block;
+    }
+
+    header .social{
+        margin: 0;
+        margin-top: 10px;
+    }
+    
+    section.main .texts h1{
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    section.main .texts p{
+        padding:0;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    section.segment .segments-lists{
+        height: 100%;
+    }
+
+    section.segment .segments .item{
+        width: 100%;
+    }
+
+    section.segment .segments-lists .item{
+        width: 100%;
+        margin-bottom: 21px;
+    }
+
+    section.segment .segments-lists .lists{
+        padding:0;
+    }
+
+    section.segment .segments-lists .item ul li{
+        text-align: center;
+    }
+
+    .guestbook{
+        height: 100%;
+    }
+
+    .guestbook .form{
+        width: 100%;
+        padding: 0;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    .guestbook .texts{
+        width: 100%;
+    }
+
+    .guestbook .form input, textarea{
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+    .guestbook{
+        height: 100%;
+    }
+
+    .guestbook .form{
+        width: 100%;
+        padding: 0;
+        padding-top: 20px;
+        margin: 0;
+    }
+
+    .guestbook .texts{
+        width: 100%;
+    }
+
+    .guestbook .form input, textarea{
+        width: 90%;
+    }
+    
+    section.segment .segments-lists .item ul li{
+        text-align: center;
+    }
+}
